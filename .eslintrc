@@ -1,6 +1,6 @@
 {
-  "extends": "airbnb",
   "parser": "babel-eslint",
+  "extends": "airbnb",
   "env": {
     "browser": true,
     "jest": true
@@ -21,6 +21,8 @@
         "argsIgnorePattern": "^_"
       }
     ],
-    "react/destructuring-assignment": "off"
+    // incoformidade com o padrão AirBnB
+    "react/jsx-one-expression-per-line": 0 
+    //, "react/destructuring-assignment": "off"
   }
 }
